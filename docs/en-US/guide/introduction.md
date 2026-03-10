@@ -197,12 +197,12 @@ Refer to the default path
 - 3.x version is `ZyPlayer` developed by `@Hiram-Wong`
   - Icon designed by `@fourbeauty`
   - Data source support multiple formats
-    - `[t0]xml` `[t1]json` `[t3]py` supported by `@Hiram-Wong`
-    - `[t3]drpy` `[t4]hipy` `t4[drpyS]` supported by `@hjdhnx`
-    - `csp_xbpq` `csp_xyq` `csp_appysv2` supported by `@LoyDgIk` `@α`
-    - `catvod[nodejs]` `catopen[nodejs]` supported by `开源项目@catvod`
+    - `[t0]xml` `[t1]json` supported by `@Hiram-Wong`
+    - `[t3]drpy` `t4[drpyS]` `[t3]py` supported by `@hjdhnx`
+    - `[t3]csp_xbpq` `[t3]csp_xyq` `[t3]csp_appysv2` supported by `@LoyDgIk` `@α`
+    - `[t4]catvod` `[t3]catopen` supported by `@catvod`
   - Cheng Duo Player
-    - Built-in `xgplayer` `artplayer` `oplayer` ~~`nplayer`~~ ~~`dplayer`~~
+    - Built-in `xgplayer` `artplayer` ~~`oplayer`~~ ~~`nplayer`~~ ~~`dplayer`~~
     - Support calling the system player
   - **Destructive (important note)**
     - `<=3.3.7` All functions based on the front-end (including webworker), data for the json file [`Good compatibility`]

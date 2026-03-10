@@ -197,12 +197,12 @@ sudo yum install xdg-utils
 - 3.x 版本为`ZyPlayer`由`@Hiram-Wong`二开
   - Icon图标由`@fourbeauty`设计贡献
   - 数据源支持多种格式
-    - `[t0]xml` `[t1]json` `[t3]py`由`@Hiram-Wong`提供技术支持
-    - `[t3]drpy` `[t4]hipy` `t4[drpyS]`由`@hjdhnx`提供技术支持
-    - `csp_xbpq` `csp_xyq` `csp_appysv2`由`@LoyDgIk` `@α`提供技术支持
-    - `catvod[nodejs]`由`开源项目@catvod`提供技术支持
+    - `[t0]xml` `[t1]json` 由`@Hiram-Wong`提供技术支持
+    - `[t3]drpy` `t4[drpyS]` `[t3]py` 由`@hjdhnx`提供技术支持
+    - `[t3]csp_xbpq` `[t3]csp_xyq` `[t3]csp_appysv2` 由`@LoyDgIk` `@α`提供技术支持
+    - `[t4]catvod` `[t3]catopen` 由`@catvod`提供技术支持
   - 集成多播放器
-    - 内置`xgplayer` `artplayer` `oplayer` ~~`nplayer`~~ ~~`dplayer`~~
+    - 内置`xgplayer` `artplayer` ~~`oplayer`~~ ~~`nplayer`~~ ~~`dplayer`~~
     - 支持调用系统播放器
   - **破坏性(重要说明)**
     - `<=3.3.7` 所有功能基于前端(含webworker), 数据为json文件 [`兼容性好`]
