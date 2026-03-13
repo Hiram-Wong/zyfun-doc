@@ -437,7 +437,7 @@ console.log(pdfa(html, '#container ul.list li')); // Get all the li elements
 
 Inject `sandbox` `utilsSanbox` `drpySanbox` `drpyCustomSanbox` `libsSanbox`
 
-#### 2.3.2 MCP
+#### 2.2.3 MCP
 
 > The following is an example of `Cherry Studio`
 

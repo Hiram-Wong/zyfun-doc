@@ -437,7 +437,7 @@ console.log(pdfa(html, '#container ul.list li')); // 获取所有li元素
 
 注入参数 `sandbox` `utilsSanbox` `drpySanbox` `drpyCustomSanbox` `libsSanbox`
 
-#### 2.3.2 MCP
+#### 2.2.3 MCP
 
 > 如下为`Cherry Studio`示例
 
