@@ -152,7 +152,7 @@
 
 ![vlc-set-stop&quit](/share/vlc/vlc-set-stop&quit.png)
 
-## 4.封装
+## 4. 封装
 
 ```ts:line-numbers
 import axios from 'axios';

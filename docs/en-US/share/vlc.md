@@ -153,7 +153,7 @@ When the browser receives it, it will pop up the login box. After filling out th
 
 ![vlc-set-stop&quit](/share/vlc/vlc-set-stop&quit.png)
 
-## 4.Seal inside
+## 4. Seal inside
 
 ```ts:line-numbers
 import axios from 'axios';

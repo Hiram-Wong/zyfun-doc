@@ -27,7 +27,7 @@
 - 调试: 查看实际效果
 - 帮助: 帮助文档
 
-## 2. 编辑区
+## 2. 编辑
 
 - 导航栏
   - 编辑器: 用于编辑查看规则代码
@@ -44,7 +44,7 @@
 
 ![edit](/source/ide/edit.png)
 
-## 3. 操作区
+## 3. 操作
 
 ### 3.1. 节点
 
@@ -450,7 +450,7 @@
 
 ![proxy-upload](/source/ide/proxy-upload.png)
 
-## 4. Output
+## 4. 输出
 
 ![output](/source/ide/output.png)
 
