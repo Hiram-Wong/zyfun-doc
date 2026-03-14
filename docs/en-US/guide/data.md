@@ -310,11 +310,38 @@ For the binary path go to [Introduction-Path](/en-US/guide/introduction#_4-path)
 
 ```bash
 # windows
-cd {install path}/resources/t3PyBase
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
 {binary path}/uv.exe sync --native-tls
 
-# mac/linux
-cd {install path}/resources/t3PyBase
+# mac
+cd {install path}/Resources/app.asar.unpacked/resources/t3PyBase
+{binary path}/uv sync --native-tls
+
+# linux
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
+{binary path}/uv sync --native-tls
+```
+
+:::
+
+::: details Click me to see how to install custom dependencies
+
+For the binary path go to [Introduction-Path](/en-US/guide/introduction#_4-path) view
+
+```bash
+# windows
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
+# Modify the dependencies field of the pyproject.toml file
+{binary path}/uv.exe sync --native-tls
+
+# mac
+cd {install path}/Resources/app.asar.unpacked/resources/t3PyBase
+# Modify the dependencies field of the pyproject.toml file
+{binary path}/uv sync --native-tls
+
+# linux
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
+# Modify the dependencies field of the pyproject.toml file
 {binary path}/uv sync --native-tls
 ```
 

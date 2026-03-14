@@ -310,11 +310,38 @@
 
 ```bash
 # windows
-cd {install path}/resources/t3PyBase
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
 {binary path}/uv.exe sync --native-tls
 
-# mac/linux
-cd {install path}/resources/t3PyBase
+# mac
+cd {install path}/Resources/app.asar.unpacked/resources/t3PyBase
+{binary path}/uv sync --native-tls
+
+# linux
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
+{binary path}/uv sync --native-tls
+```
+
+:::
+
+::: details 点我查看安装自定义依赖
+
+二进制路径请前往[软件介绍-路径](/zh-CN/guide/introduction#_4-路径)查看
+
+```bash
+# windows
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
+# 修改pyproject.toml文件dependencies字段
+{binary path}/uv.exe sync --native-tls
+
+# mac
+cd {install path}/Resources/app.asar.unpacked/resources/t3PyBase
+# 修改pyproject.toml文件dependencies字段
+{binary path}/uv sync --native-tls
+
+# linux
+cd {install path}/resources/app.asar.unpacked/resources/t3PyBase
+# 修改pyproject.toml文件dependencies字段
 {binary path}/uv sync --native-tls
 ```
 
